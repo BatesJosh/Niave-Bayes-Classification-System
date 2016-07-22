@@ -1,7 +1,8 @@
 This program implements the Naive Bayes Classification system. 
 The program runs in the command prompt. 
 This code assumes all data being trained are in the same folder system as the java code. 
-The user will be able to train data, classify data, test accuracy, and exit out of the program. 
+The user will be able to train data, classify data, test accuracy, and exit out of the program.
+Before running make sure to have car.test, car.meta, and car.train or your own data files in the proper format in the same folder. 
 
 Compile code:
 	javac Main.java
