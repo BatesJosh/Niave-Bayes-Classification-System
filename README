@@ -1,0 +1,44 @@
+This program implements the Naive Bayes Classification system. 
+The program runs in the command prompt. 
+This code assumes all data being trained are in the same folder system as the java code. 
+The user will be able to train data, classify data, test accuracy, and exit out of the program. 
+
+Compile code:
+	javac Main.java
+Run code:
+	java Main
+
+When code is first ran, it will ask for two files train the data.  
+	Enter files as in format as: meta,train
+The user then can train, classify, test accuracy, and exit in any order.
+In order to classify give an input and output file.
+	Example: input,output
+In order to test accuracy, give an input file.
+In order to exit, just hit exit when not doing one of the other commands.
+
+
+
+Creating own files to train:
+	The files given are just sample files. Here are the rules to create new files in order to create more data files train.
+	Meta File:
+		The meta file must have the name of the attribute, followed by a : then the values. 
+		Each additional value must be separated by a , only.  
+		Each attribute is put on separate lines.
+		The last attribute is the classification.
+		Note there is no spaces between each value.
+		
+		Syntax: attribute:value,value,value
+
+		Example:
+			tires:2,4
+			type:bike,car
+	
+	Train/classify files:
+		The file being trained and classified is in the same format.
+		For each attribute, there needs to be a value. Each line represents one data. 
+		Syntax with 5 attributes: value,value,value,value,value
+
+		Example using Meta File example:
+			2,bike
+			4,car
+			2,car
